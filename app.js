@@ -35,7 +35,7 @@ app.post("/fetchData", (req, res) => {
     "Saturday",
   ];
 
-  const message = "Hi " + name + ", you were born on a " + dayMap[day];
+  const message = "Hi " + name + ", you were born on a " + dayMap[day] + " !";
 
   console.log(message);
 
